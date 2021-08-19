@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+    <title>Baper Bank</title>
+</head>
+    <body class="bg-yellow-100">
+
+      <header>
+        <h1 class="text-5xl text-center mt-16 font-bold"><span class="text-red-900">Welcome</span> to My <span class="text-blue-900">Baper-Er-Bank</span>!!! </h1>
+      </header>
+      <main>
+          <section class="bg-green-100 p-10 w-2/3 mx-auto mt-4 rounded"">
+              <h3 class="text-3xl mb-2">Please Login</h3>
+              <div>
+
+                  <input id="user-email" class="border-block rounded border-2 border-gray-400 p-2 w-3/4 mb-4 px-2" type="email" placeholder="Your Email">
+
+                  <input id="user-password" class="border-block rounded border-2 border-gray-400 p-2 w-3/4 mb-4 px-2" type="Password" name="" placeholder="password">
+                    <br>
+                  <button id="login-submit" class="bg-yellow-600 px-4 rounded py-2 text-white font-medium">Submit</button>
+
+                  <p class="text-red-700 hidden" id="error-masses">Your Email and Password is not Correct..!!</p>
+              </div>
+
+          </section>
+      </main>
+
+    <script src="js/Login.js"></script>
+
+    </body>
+</html>
